@@ -27,6 +27,24 @@ usersAllowed = [
                 }
 ]
 
+Ao rodar o projeto com o npm run start:dev você consegue acessar uma documentação sobre as rotas utilizando /swagger no final da sua url
+![image](https://user-images.githubusercontent.com/47927459/179451232-4897f2b5-27dd-45e1-b9f9-ffd7e6c86011.png)
+
+Aqui esta uma collection do Insomnia que pode auxiliar o uso da API
+[Insomnia-All_2022-07-18.zip](https://github.com/Elonghi/skore-io-challange/files/9129695/Insomnia-All_2022-07-18.zip)
+
+
+Não se preocupe com 
+
+## Observacões
+
+Sempre quando a rota para recuperar um unico conteudo for chamada ela vai adicionar o id deste conteudo no token de usuario que você esta utilizando para fazer o request.
+
+![image](https://user-images.githubusercontent.com/47927459/179451832-ec4f4d7c-02ba-4800-95d1-5a069352fac9.png)
+
+## Conclusão
+  Cada projeto é sempre um grande aprendizado, confesso que esta api não ficou do jeito que eu queria em questão de codigo mas infelizmente o tempo é inimigo da perfeição e mais ainda dos devs uahuhau. Obrigado pela oportunidade de realizar este desafio, espero que gostem do que foi entregue, estou aberto a qualquer feedback sobre o mesmo. Essa foi uma das poucas vezes que utilizei o nestJs e como sempre aprendi cada vez mais. Espero que possa fazer parte da equipe e contribuir com vocês e claro aprender cada vez mais. Qualquer duvida podem me enviar um email: eduardolonghi5@gmail.com. Ou me enviar uma mensagem no linkedin https://www.linkedin.com/in/eduardo-udovic-9807bb192/.
+
 ## Installation
 
 ```bash
@@ -45,30 +63,3 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
