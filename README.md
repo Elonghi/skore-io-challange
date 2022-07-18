@@ -1,6 +1,6 @@
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Este projeto foi feito com o intuito de resolver este desafio['https://github.com/skore-io/challenge/blob/main/backend.md']
 
 ## Installation
 
